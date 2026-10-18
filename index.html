@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshita Gupta | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Harshita<span>.Gupta</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Profile Photo -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="profile-wrapper">
+        <img 
+          src="D:\SEM - 7 Master\Harshita051_Portfolio\My Profile Photo.jpeg" 
+          alt="Harshita Gupta" 
+          class="profile-img" 
+          onerror="this.src='https://via.placeholder.com/170?text=HG'" 
+        />
+      </div>
+      <p class="tagline">Full-Stack & Application Developer</p>
+      <h1>Harshita Gupta</h1>
+      <h2 class="sub-headline">Crafting scalable web and mobile software solutions</h2>
+      <p class="bio">
+        Passionate about writing clean, maintainable code across frontend interfaces,
+        cross-platform mobile apps, and robust backend systems.
+      </p>
+      <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Background, education, and development approach</p>
+    </div>
+    <div class="about-card">
+      <p>
+        I am a software developer with hands-on experience in full-stack web and mobile application engineering. 
+        I focus on combining structured, maintainable code architectures with smooth and modern UI/UX patterns. 
+        Whether designing responsive web layouts or native mobile screens, I strive to build intuitive, reliable digital tools.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="section-header">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <p class="section-subtitle">Core languages, frameworks, and developer workflows</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend Web</h3>
+        <ul class="skill-tags">
+          <li>HTML5 & Semantic Markup</li>
+          <li>CSS3 / Flexbox / Grid</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Mobile Engineering</h3>
+        <ul class="skill-tags">
+          <li>React Native</li>
+          <li>Expo Ecosystem</li>
+          <li>Navigation & State Management</li>
+          <li>Mobile UI/UX Components</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Backend & Storage</h3>
+        <ul class="skill-tags">
+          <li>Python</li>
+          <li>Flask Framework</li>
+          <li>RESTful APIs</li>
+          <li>SQLite / Relational Databases</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Best Practices</h3>
+        <ul class="skill-tags">
+          <li>Git & GitHub Version Control</li>
+          <li>Responsive Web Design</li>
+          <li>Debugging & Optimization</li>
+          <li>Clean Code Principles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="section-header">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Selected portfolio works with interactive details</p>
+    </div>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-content">
+          <span class="project-badge">Project 01</span>
+          <h3>CivicConnect Smart City App</h3>
+          <p>
+            A smart city civic service mobile application. Provides citizens with emergency contacts,
+            service utility complaint reporting, real-time alert updates, and modal feedback mechanisms.
+          </p>
+          <div class="tech-stack">
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-btn" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" class="project-btn outline" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-content">
+          <span class="project-badge">Project 02</span>
+          <h3>Recipe Haven Web Platform</h3>
+          <p>
+            A full-stack culinary catalog application with real-time text search, category-based filtering,
+            modal ingredient cards, and a lightweight Python Flask backend API.
+          </p>
+          <div class="tech-stack">
+            <span>JavaScript</span>
+            <span>Python Flask</span>
+            <span>CSS3 Grid</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-btn" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" class="project-btn outline" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-content">
+          <span class="project-badge">Project 03</span>
+          <h3>LuxeShine & Zenvora Platform UI</h3>
+          <p>
+            High-fidelity user interface concepts designed for e-commerce and lifestyle management, 
+            focusing on minimal card systems, responsive palettes, and theme toggling.
+          </p>
+          <div class="tech-stack">
+            <span>UI/UX Design</span>
+            <span>HTML5/CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-btn" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" class="project-btn outline" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="section-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Reach out for collaborations, job opportunities, or questions</p>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-feedback" id="formFeedback"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Harshita Gupta. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
